@@ -1,0 +1,56 @@
+Butoane,Etichete
+Connexion,Connexion
+null,Selectionnez la langue
+null,Utilisateur
+null,Mot de passe
+null,Bienvenue sur la page Administrateur!
+null,Selectionnez la langue
+Ajouter l'utilisateur,Ajouter un nouvel utilisateur a l'application
+null,Utilisateur
+null,Mot de passe
+null,Role
+null,Salaire
+null,L'emplacement de la librairie
+Supprimer l'utilisateur,Supprimer un utilisateur en entrant son nom d'utilisateur dans la case ci-dessus
+Mettez a jour votre salaire,Mettre a jour le salaire d'un utilisateur en entrant son nom d'utilisateur et le nouveau salaire dans les cases ci-dessus
+Voir la liste,Afficher la liste de tous les utilisateurs
+Filtrer la liste,Pour filtrer la liste des utilisateurs selon leur type selectionnez le role souhaite dans la case ci dessus
+null,Bienvenue sur la page du Gestionnaire!
+null,Selectionnez la langue
+null,Selectionnez l'emplacement de la librairie dont vous souhaitez consulter la liste de livres
+Voir la liste,null
+null,Selectionnez le critere selon lequel vous souhaitez filtrer la liste
+champ,null
+disponibilite,null
+maison d'edition,null
+auteur,null
+prix,null
+null,Liste
+Rechercher le livre par titre,null
+null,Enregistrer la liste des livres sous plusieurs formats
+Generer le graphique correspondant aux statistiques liees au nombre de livres dans chaque domaine,null
+null,Bienvenue sur la page Employe!
+null,Selectionnez la langue
+Voir la liste de tous les livres de la bibliotheque tries par auteur et titre,null
+null,Selectionnez le critere selon lequel vous souhaitez filtrer la liste
+champ,null
+disponibilite,null
+maison d'edition,null
+auteur,null
+prix,null
+null,Liste
+null,Effectuer des operations sur les livres de cette bibliotheque
+null,titre
+null,auteur
+null,champ
+null,disponibilite
+null,maison d'edition
+null,prix
+Ajouter le livre,null
+Supprimer le livre,null
+Mettre a jour le livre,null
+null,Pour Supprimer entrez simplement le titre et l'auteur du livre que vous souhaitez supprimer
+null,Pour Mettre a jour entrez le titre et l'auteur du livre que vous souhaitez mettre a jour et dans le champ de disponibilite entrez la nouvelle valeur avec laquelle le livre sera mis a jour
+Rechercher le livre par titre,null
+Vendre le livre,null
+null,Enregistrer la liste des livres sous plusieurs formats

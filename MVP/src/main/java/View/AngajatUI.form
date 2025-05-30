@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.AngajatUI">
+  <grid id="27dc6" binding="angajatPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="4" y="20" width="1282" height="906"/>
+    </constraints>
+    <properties>
+      <background color="-3229746"/>
+      <font/>
+      <foreground color="-10912562"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cd0f3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="books.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c9f64" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="28" style="1"/>
+          <foreground color="-5828677"/>
+          <text value="Bun venit pe pagina Angajatului!"/>
+        </properties>
+      </component>
+      <scrollpane id="a8dd9">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3229746"/>
+          <foreground color="-3229746"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="ed524" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <background color="-3229746"/>
+              <foreground color="-3229746"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e34e8" class="javax.swing.JLabel" binding="locatieLibrarieLbl">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe Print" size="16" style="1"/>
+                  <foreground color="-10912562"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <grid id="44f01" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3229746"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="37974" class="javax.swing.JButton" binding="sortareBtn">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10912562"/>
+                      <font name="Segoe Print" size="16" style="1"/>
+                      <foreground color="-3229746"/>
+                      <text value="Vizualizati lista tuturor cartilor din librarie sortata dupa autor si titlu"/>
+                    </properties>
+                  </component>
+                  <grid id="84de9" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="10" left="10" bottom="10" right="10"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3229746"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="aa7f5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="18" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Selectati criteriul dupa care doriti filtrarea listei"/>
+                        </properties>
+                      </component>
+                      <component id="a797b" class="javax.swing.JTextField" binding="domeniuTF">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="4d6f8" class="javax.swing.JTextField" binding="disponibilitateTF">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="1cb6f" class="javax.swing.JButton" binding="domeniuBtn">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Domeniu"/>
+                        </properties>
+                      </component>
+                      <component id="a1353" class="javax.swing.JTextField" binding="edituraTF">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="de505" class="javax.swing.JTextField" binding="autorTF">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="60fec" class="javax.swing.JTextField" binding="pretTF">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="ca200" class="javax.swing.JButton" binding="disponibilitateBtn">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Disponibilitate"/>
+                        </properties>
+                      </component>
+                      <component id="f41e5" class="javax.swing.JButton" binding="edituraBtn">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Editura"/>
+                        </properties>
+                      </component>
+                      <component id="27d9c" class="javax.swing.JButton" binding="autorBtn">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Autor"/>
+                        </properties>
+                      </component>
+                      <component id="dd572" class="javax.swing.JButton" binding="pretBtn">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Pret"/>
+                        </properties>
+                      </component>
+                      <scrollpane id="a3560">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="f3aa" class="javax.swing.JTextArea" binding="textArea">
+                            <constraints/>
+                            <properties>
+                              <background color="-5828677"/>
+                              <font name="Segoe Print" size="14" style="0"/>
+                              <foreground color="-3229746"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                      <component id="80778" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="20" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Lista:"/>
+                        </properties>
+                      </component>
+                      <component id="bd60c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="18" style="1"/>
+                          <foreground color="-10912562"/>
+                          <text value="Efectuati operatii asupra cartilor din aceasta librarie"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="2b179" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3229746"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="78e50" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Titlu"/>
+                        </properties>
+                      </component>
+                      <component id="d693d" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Autor"/>
+                        </properties>
+                      </component>
+                      <component id="6a3a9" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Domeniu"/>
+                        </properties>
+                      </component>
+                      <component id="ef187" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Disponibilitate"/>
+                        </properties>
+                      </component>
+                      <component id="ffced" class="javax.swing.JTextField" binding="titluTFCRUD">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="6df09" class="javax.swing.JTextField" binding="autorTFCRUD">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="9b9ff" class="javax.swing.JTextField" binding="domeniuTFCRUD">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="841cd" class="javax.swing.JTextField" binding="disponibilitateTFCRUD">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="c8b40" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Editura"/>
+                        </properties>
+                      </component>
+                      <component id="b64c5" class="javax.swing.JTextField" binding="edituraTFCRUD">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="b26bc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Pret"/>
+                        </properties>
+                      </component>
+                      <component id="54bdf" class="javax.swing.JButton" binding="adaugatiCarteaBtn">
+                        <constraints>
+                          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Adaugati cartea"/>
+                        </properties>
+                      </component>
+                      <component id="d2694" class="javax.swing.JButton" binding="stergetiCarteaBtn">
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Stergeti cartea"/>
+                        </properties>
+                      </component>
+                      <component id="51c2b" class="javax.swing.JButton" binding="actualizatiCarteaBtn">
+                        <constraints>
+                          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Actualizati cartea"/>
+                        </properties>
+                      </component>
+                      <component id="d2bfd" class="javax.swing.JTextField" binding="pretTFCRUD">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="3bfd7" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Segoe Print" size="14" style="1"/>
+                      <foreground color="-10912562"/>
+                      <text value="* Pentru Stergere introduceti doar titlul si autorul cartii pe care doriti sa o stergeti"/>
+                    </properties>
+                  </component>
+                  <component id="3f107" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Segoe Print" size="14" style="1"/>
+                      <foreground color="-10912562"/>
+                      <text value="* Pentru Actualizare introduceti titlul si autorul cartii pe care doriti sa o actualizati, iar in campul &quot;disponibilitate&quot; introduceti noua valoare cu care va fi actualizata cartea "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

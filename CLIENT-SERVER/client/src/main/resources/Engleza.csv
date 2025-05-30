@@ -1,0 +1,56 @@
+Butoane,Etichete
+Login,Login
+null,Choose the language
+null,Username
+null,Password
+null,Welcome to the Administrator page!
+null,Choose the language
+Add the user,Add a new user to the application
+null,Username
+null,Password
+null,Role
+null,Salary
+null,Bookstore's location
+Delete the user,Delete a user by entering his username in the box above
+Update the salary,Update a user's salary by entering his username and the new salary in the boxes above
+View the list,View the list of all users
+Filter the list,To filter the list of users according to their type select the desired role in the box above
+null,Welcome to the Manager page!
+null,Choose the language
+null,Select the location of the bookstore whose book list you want to view
+View the list,null
+null,Select the criterion by which you want to filter the list
+domain,null
+availability,null
+publishing house,null
+author,null
+price,null
+null,List
+Search for the book by title,null
+null,Save the list of books in several formats
+Generate the graph corresponding to the statistics related to the number of books in each field,null
+null,Welcome to the Employee page!
+null,Choose the language
+View the list of all the books in the library sorted by author and title,null
+null,Select the criterion by which you want to filter the list
+domain,null
+availability,null
+publishing house,null
+author,null
+price,null
+null,List
+null,Perform operations on the books in this library
+null,title
+null,author
+null,domain
+null,availability
+null,publishing house
+null,price
+Add the book,null
+Delete the book,null
+Update the book,null
+null,For Delete  just enter the title and author of the book you want to delete
+null,For Update enter the title and author of the book you want to update and in the availability field enter the new value with which the book will be updated
+Search for the book by title,null
+Sell the book,null
+null,Save the list of books in several formats

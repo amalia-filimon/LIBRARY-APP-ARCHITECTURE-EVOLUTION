@@ -1,0 +1,56 @@
+Butoane,Etichete
+Acceso,Acceso
+null,Seleccione el idioma
+null,Nombre de usuario
+null,Contrasena
+null,Bienvenido a la pagina del Administrador!
+null,Seleccione el idioma
+Agregar el usuario,Agregar un nuevo usuario a la aplicacion
+null,Nombre de usuario
+null,Contrasena
+null,Role
+null,Salario
+null,La ubicacion de la libreria
+Eliminar el usuario,Eliminar un usuario ingresando su nombre de usuario en el cuadro de arriba 
+Actualiza tu sueldo,Actualice el salario de un usuario ingresando su nombre de usuario y el nuevo salario en los cuadros de arriba
+Ver la lista,Ver la lista de todos los usuarios
+Filtrar la lista,Para filtrar la lista de usuarios segun su tipo seleccione el rol deseado en el cuadro de arriba
+null,Bienvenido a la pagina del Gerente!
+null,Seleccione el idioma
+null,Seleccione la ubicacion de la libreria cuya lista de libros desea ver
+Ver la lista,null
+null,Seleccione el criterio por el que desea filtrar la lista
+campo,null
+disponibilidad,null
+editorial,null
+autor,null
+precio,null
+null,Lista
+Buscar el libro por titulo,null
+null,Guarda la lista de libros en varios formatos
+Generar el grafico correspondiente a las estadisticas relacionadas con el numero de libros en cada campo,null
+null,Bienvenido a la pagina de Empleados!
+null,Seleccione el idioma
+Ver la lista de todos los libros de la biblioteca ordenados por autor y titulo,null
+null,Seleccione el criterio por el que desea filtrar la lista
+campo,null
+disponibilidad,null
+editorial,null
+autor,null
+precio,null
+null,Lista
+null,Realizar operaciones en los libros de esta biblioteca
+null,titulo
+null,autor
+null,campo
+null,disponibilidad
+null,editorial
+null,precio
+Anadir el libro,null
+Eliminar el libro,null
+Actualizar el libro,null
+null,Para Eliminar simplemente ingrese el titulo y el autor del libro que desea eliminar
+null,Para Actualizar ingrese el titulo y el autor del libro que desea actualizar y en el campo de disponibilidad ingrese el nuevo valor con el que se actualizara el libro
+Buscar el libro por titulo,null
+Vender el libro,null
+null,Guarda la lista de libros en varios formatos

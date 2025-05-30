@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.AdministratorUI">
+  <scrollpane id="d34b6">
+    <constraints>
+      <xy x="6" y="18" width="1274" height="871"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="adminMainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="30" left="30" bottom="30" right="30"/>
+        <constraints/>
+        <properties>
+          <background color="-3229746"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="ee7e">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="d1d8" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <background color="-3229746"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="6cf04" class="javax.swing.JLabel" binding="addUserLbl">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="467" height="59"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Segoe Print" size="18" style="1"/>
+                      <foreground color="-10912562"/>
+                      <text value="Add a new user to the application"/>
+                    </properties>
+                  </component>
+                  <grid id="31ace" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3229746"/>
+                      <foreground color="-3229746"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="39369" class="javax.swing.JLabel" binding="usernameLbl">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Username"/>
+                        </properties>
+                      </component>
+                      <component id="44709" class="javax.swing.JLabel" binding="passwordLbl">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Password"/>
+                        </properties>
+                      </component>
+                      <component id="c4ca" class="javax.swing.JTextField" binding="passwordTF">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="99048" class="javax.swing.JLabel" binding="roleLbl">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Role"/>
+                        </properties>
+                      </component>
+                      <component id="f45e6" class="javax.swing.JLabel" binding="salaryLbl">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Salary"/>
+                        </properties>
+                      </component>
+                      <component id="9424d" class="javax.swing.JTextField" binding="salaryTF">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="c36e6" class="javax.swing.JTextField" binding="usernameTF">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="b281d" class="javax.swing.JLabel" binding="locationLbl">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-5828677"/>
+                          <text value="Bookstore's location"/>
+                        </properties>
+                      </component>
+                      <component id="489d2" class="javax.swing.JComboBox" binding="comboBox">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                      <component id="3b819" class="javax.swing.JButton" binding="adaugatiUtilizatorulButton" default-binding="true">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Add the user"/>
+                        </properties>
+                      </component>
+                      <component id="e9c46" class="javax.swing.JComboBox" binding="roleComboBox">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="14" style="1"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="bc801" layout-manager="GridLayoutManager" row-count="4" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3229746"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="e5ed8" class="javax.swing.JLabel" binding="stergereUserLbl">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-10912562"/>
+                          <text value="Delete a user by entering his username in the box above"/>
+                        </properties>
+                      </component>
+                      <component id="7bc4" class="javax.swing.JLabel" binding="actualizareLbl">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-10912562"/>
+                          <text value="Update a user's salary by entering his username and the new salary in the boxes above"/>
+                        </properties>
+                      </component>
+                      <component id="46332" class="javax.swing.JLabel" binding="vizualizareLbl">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-10912562"/>
+                          <text value="View the list of all users"/>
+                        </properties>
+                      </component>
+                      <hspacer id="faa33">
+                        <constraints>
+                          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                      <component id="ce176" class="javax.swing.JButton" binding="actualizatiSalariulButton" default-binding="true">
+                        <constraints>
+                          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Update the salary"/>
+                        </properties>
+                      </component>
+                      <hspacer id="d9d9d">
+                        <constraints>
+                          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                      <component id="5aa9" class="javax.swing.JButton" binding="stergetiUtilizatorulButton" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Delete the user"/>
+                        </properties>
+                      </component>
+                      <component id="b26c7" class="javax.swing.JButton" binding="vizualizareBtn">
+                        <constraints>
+                          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="View the list"/>
+                        </properties>
+                      </component>
+                      <component id="e1b85" class="javax.swing.JLabel" binding="filterLbl">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-10912562"/>
+                          <text value="To filter the list of users according to their type select the desired role in the box above"/>
+                        </properties>
+                      </component>
+                      <component id="64f7b" class="javax.swing.JButton" binding="filterTheListBtn">
+                        <constraints>
+                          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-10912562"/>
+                          <font name="Segoe Print" size="16" style="1"/>
+                          <foreground color="-3229746"/>
+                          <text value="Filter the list"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="13bab" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3229746"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <vspacer id="66003">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <scrollpane id="bc249">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="10828" class="javax.swing.JTextArea" binding="textArea">
+                        <constraints/>
+                        <properties>
+                          <background color="-5828677"/>
+                          <font name="Segoe Print" size="14" style="0"/>
+                          <foreground color="-3229746"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+            </children>
+          </scrollpane>
+          <component id="cecb2" class="javax.swing.JLabel" binding="languageLbl">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="326" height="33"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-10912562"/>
+              <text value="Choose the language"/>
+            </properties>
+          </component>
+          <component id="43458" class="javax.swing.JCheckBox" binding="checkBoxRomana">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3229746"/>
+              <font name="Segoe Print" size="16" style="1"/>
+              <foreground color="-10912562"/>
+              <text value="Romanian"/>
+            </properties>
+          </component>
+          <component id="e966a" class="javax.swing.JLabel" binding="titleLbl">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="28" style="1"/>
+              <foreground color="-5828677"/>
+              <text value="Welcome to the Administrator page!"/>
+            </properties>
+          </component>
+          <component id="c2688" class="javax.swing.JCheckBox" binding="checkBoxSpaniola">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3229746"/>
+              <font name="Segoe Print" size="16" style="1"/>
+              <foreground color="-10912562"/>
+              <text value="Spanish"/>
+            </properties>
+          </component>
+          <component id="9957e" class="javax.swing.JCheckBox" binding="checkBoxEngleza">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3229746"/>
+              <font name="Segoe Print" size="16" style="1"/>
+              <foreground color="-10912562"/>
+              <text value="English"/>
+            </properties>
+          </component>
+          <component id="8b9e2" class="javax.swing.JCheckBox" binding="checkBoxFranceza">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3229746"/>
+              <font name="Segoe Print" size="16" style="1"/>
+              <foreground color="-10912562"/>
+              <text value="French"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </scrollpane>
+</form>
