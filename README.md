@@ -21,6 +21,8 @@ Each stage builds upon the previous one by adding new functionality and improvin
 
 ## 👤 User Roles & Features
 
+> 🌍 The graphical user interface is available in **four languages**: Romanian, English, French, and Spanish — three of which are widely spoken internationally.
+
 ### 🔹 Employee
 - View books in assigned library (sorted by author/title)
 - Filter and search books by criteria (domain, price, availability, etc.)
